@@ -18,7 +18,7 @@ st.title("NPL Sentiment Analysis")
 
 text = st.text_area(
     'Enter your statement here:',
-    placeholder='Example : I am really Happy today!',         
+    placeholder='Tip : Use I based statements for better results.\nExample : I am really Happy today!'         
     )
 
 if st.button("Predict Emotion"):
